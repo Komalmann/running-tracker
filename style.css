@@ -1,0 +1,132 @@
+html{
+    font-family: 'MuseoModerno',
+    cursive;
+    font-size: 10px;
+    background-color: #2d3740;
+}
+
+body{
+    padding:1rem;
+    background: #1c262f;
+    color: rgb(230,225,225);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+label{
+    font-size: 1.8rem;
+}
+
+input[type="number"]{
+    font-family: inherit;
+    background: rgb(230,225,225);
+    width:80%;
+    margin: 1rem 0;
+    padding:0.8rem 0;
+    border: none;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+button{
+    font-family: inherit;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    width: 80px;
+    height:80px;
+    border: none;
+    border-radius: 50%;
+    background: #0ad9ff;
+    margin: 0.5 rem 0 1rem 0;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+}
+
+li{
+        border: 1px solid;
+        padding:2rem;
+        height:10px;
+        text-align: center;
+}
+
+.entries-wrapper h3 {
+    margin:0;
+    text-align: center;
+}
+
+.entries-wrapper{
+    padding:1rem 0;
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+.data{
+    font-size: 1.4rem;
+}
+
+.data div{
+    background: #141c22;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+    padding: 0 1rem;  
+}
+.progress{
+    text-align: center;
+    padding: 1rem;
+}
+.progress h3{
+    font-weight: lighter;
+    font-size: 1.6rem;
+}
+
+.progressCircleWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+#progressCircle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    /* background: conic-gradient(#70db70 50%, #2d3740 50%); */
+}
+
+#progressCenter{
+    width:220px;
+    height:220px;
+    border-radius: 50%;
+    background: #1c262f;
+
+}
+
+@media screen and(min-width:800px)
+{
+    body{
+        width:80%;
+    }
+
+    input[type="number"]{
+        width:40%;
+    }
+    svg{
+        max-width: 50%;
+    }
+}
