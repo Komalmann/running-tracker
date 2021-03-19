@@ -60,6 +60,11 @@ function handleSubmit(event)
 
     document.querySelector("form").reset();
 
+    if(entries.length==7)
+    {
+        entries.shift();
+    }
+
     entries.push(entry);
     addNewEntry(entry);
     calTotal();
